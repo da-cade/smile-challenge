@@ -1,0 +1,15 @@
+i{
+  color: red;
+  background-color: blue;
+  border-style: double;
+}
+
+.col{
+  border-style: double;
+  border-color: darkblue;
+}
+
+.row>[class*=col-]{
+  border-style: double;
+  border-color: darkblue;
+}
